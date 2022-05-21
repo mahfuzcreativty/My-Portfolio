@@ -1,0 +1,107 @@
+.banner-area{
+    @extend %background;
+    background-image: url(../../assets/images/banner/banner.png);
+    @extend %d-flex;
+    @extend %align-center;
+    @extend %rel;
+    background-position: unset;
+    padding: 100px 0;
+    @include breakpoint(lg){
+        background-position: center center;
+    }
+    @include breakpoint(xl){
+        height: 800px;
+    }
+    .banner-wrap{
+        @extend %d-flex;
+        @extend %align-center;
+        @extend %rel;
+        .banner-content{
+            width: 100%;
+            .greating{
+                background: $theme-color;
+                padding: 8px 13px;
+                font-size: 18px;
+                color: $white-color;
+                border-radius: 4px;
+            }
+            h1{
+                text-transform: uppercase;
+                color: $white-color;
+                margin-top: 32px;
+                span{
+                    color: $theme-color;
+                    font-weight: bold;
+                }
+            }
+            h2{
+                color: $white-color;
+                margin-bottom: 20px;
+                margin-top: 12px;
+                span{
+                    color: $theme-color;
+                    font-style: italic;
+                }
+            }
+            p{
+                i,svg{
+                    margin-right: 5px;
+                }
+            }
+            .hire-btn{
+                margin-top: 30px;
+                border-radius: 6px;
+                span{
+                    color: $white-color;
+                }
+            }
+            .social-link{
+                @extend %d-flex;
+                margin-top: 30px;
+                li{
+                    width: 40px;
+                    height: 40px;
+                    @extend %icon-center;
+                    background-color: #ddd;
+                    margin-right: 10px;
+                    border-radius: 4px;
+                    a{
+                        @extend %d-flex;
+                    }
+                    i,svg{
+                        color: $facebook;
+                        font-size: 24px;
+                    }
+                    &:hover{
+                        border-radius: 50%;
+                    }
+                    &:nth-child(2){
+                        i,svg{
+                            color: #ff0000;
+                        }
+                    }
+                    &:nth-child(3){
+                        i,svg{
+                            color: $linked-in;
+                        }
+                    }
+                    &:nth-child(4){
+                        i,svg{
+                            color: $twitter;
+                        }
+                    }
+                    &:nth-child(5){
+                        i,svg{
+                            color: $insta;
+                        }
+                    }
+                    &:last-child{
+                        i,svg{
+                            color: #ff0000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

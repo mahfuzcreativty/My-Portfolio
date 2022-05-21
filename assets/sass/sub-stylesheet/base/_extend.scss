@@ -1,0 +1,128 @@
+%mp-0 {
+    margin: 0;
+    padding: 0;
+}
+
+%transition {
+    transition: $transition;
+}
+
+%d-block {
+    display: block;
+}
+%d-none{
+    display: none;
+}
+
+%d-in-block {
+    display: inline-block;
+}
+
+%rel {
+    position: relative;
+}
+
+%d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%abs {
+    position: absolute;
+    content: "";
+}
+
+%o-hidden{
+    overflow: hidden;
+}
+
+%section-title {
+    padding: 70px 0px;
+    @extend %text-center;
+}
+
+%icon-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+%m-auto {
+    margin: auto;
+}
+
+%p-auto {
+    padding: 0;
+}
+
+%rounded {
+    border-radius: 50%;
+}
+
+%background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%fw-600{
+    font-weight: 600;
+}
+
+%hover {
+    background-color: #2c2c2c;
+    color: $white-color;
+}
+
+%white{
+    background-color: $white-color;
+}
+%text-start {
+    text-align: start;
+}
+
+%text-center {
+    text-align: center;
+}
+
+%text-end {
+    text-align: end;
+}
+
+%justify-center {
+    justify-content: center;
+}
+
+%justify-between {
+    justify-content: space-between;
+}
+
+%align-center {
+    align-items: center;
+}
+
+
+%m-0 {
+    margin: 0;
+}
+
+%mb-10 {
+    margin-bottom: 10px;
+}
+
+%mb-15 {
+    margin-bottom: 15px;
+}
+
+%mb-20 {
+    margin-bottom: 20px;
+}
+
+%mb-30 {
+    margin-bottom: 30px;
+}
+
+%mb-50 {
+    margin-bottom: 50px;
+}

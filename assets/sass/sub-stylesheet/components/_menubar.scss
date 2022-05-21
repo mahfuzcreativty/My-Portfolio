@@ -1,0 +1,112 @@
+.header-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: $menu-bg;
+}
+
+//@@@@@@ Desktop menu
+.Menu-area{
+    border-bottom: 1px solid $theme-color;
+    .navbar{
+		padding: 16px 0;
+        .logo{
+            max-width: 120px;
+            img{
+                width: 100%;
+            }
+        }
+		.navbar-toggler{
+			@extend %rel;
+			border: none;
+			color: transparent !important;
+			float: right;
+			span{
+				@extend %abs;
+				left: 0%;
+				width: 23px;
+				height: 2px;
+				background-color: #ffffff;
+				@extend %transition;
+				&:nth-child(1){
+					transform: rotate(-45deg);
+					top: 7px;
+				}
+				&:nth-child(2){
+					opacity: 0;
+				}
+				&:nth-child(3){
+					transform: rotate(45deg);
+					top: 7px;
+				}
+			}
+			&.collapsed{
+				span{
+					@extend %abs;
+					left: 0%;
+					width: 23px;
+					height: 2px;
+					background-color: #ffffff;
+					&:nth-child(1){
+						top: -3px;
+						transform: none;
+					}
+					&:nth-child(2){
+						opacity: 1;
+					}
+					&:nth-child(3){
+						top: 11px;
+						transform: none;
+					}
+				}
+			}
+		}
+        .menubar{
+            width: calc(100% - 150px);
+			margin-top: 15px;
+			@include breakpoint(lg){
+				margin-top: 0;
+			}
+            ul{
+                .nav-item{
+					padding: 6px 0;
+					@include breakpoint(lg){
+						padding: 0;
+					}
+                    span{
+                        padding:10px 10px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        scroll-behavior: smooth;
+						color: $white-color;
+						cursor: pointer;
+						border-radius: 30px;
+						margin:0 4px;
+                        &:hover{
+                            color: $theme-color;
+                        }
+                    }
+					&.is-current{
+						span{
+							color: $theme-color;
+						}
+					}
+                }
+            }
+            .hireMe{
+                padding: 10px 15px;
+                border-radius: 6px;
+                background-color: $theme-color;
+                text-transform: uppercase;
+				font-weight: 600;
+				scroll-behavior: smooth;
+				border: 1px solid transparent;
+                &:hover,&.is-current{
+                    background-color: transparent;
+					border: 1px solid #ffffffc5;
+                }
+            }
+        }
+    }
+}

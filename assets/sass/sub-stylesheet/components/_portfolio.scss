@@ -1,0 +1,64 @@
+.portfolio-part{
+    background-color: $section-bg;
+    display: block;
+    .gellary-wrap{
+        .gellary-head{
+            @extend %text-center;
+            .button-group{
+                button{
+                    background-color: transparent;
+                    color: #fff;
+                    background-color: $theme-color;
+                    padding: 6px 10px;
+                    border-radius: 4px;
+                    margin-right: 6px;
+                    border: 1px solid transparent;
+                    &:hover,&.is-checked{
+                        background-color: transparent;
+                        border: 1px solid #ddd;
+                    }
+                }
+            }
+        }
+        .gellary-box{
+            margin-top: 30px;
+            @include breakpoint(md){
+                margin-top: 50px;
+            }
+            .gellary-item{
+                width: 100%;
+                @include breakpoint(md){
+                    width: calc(100% / 2);
+                }
+                @include breakpoint(lg){
+                    width: calc(100% / 3);
+                }
+                .gellary-inner{
+                    margin: 8px ;
+                    border-radius: 4px;
+                    @extend %rel;
+                    .gellary-thumb{
+                        @extend %o-hidden;
+                        cursor: pointer;
+                        img{
+                            width: 100%;
+                            border-radius: 4px;
+                        }
+                    }
+                    // .gellary-content{
+                    //     @extend %abs;
+                    //     top: -66px;
+                    //     left: 50%;
+                    //     transform: translate(-50%, 0);
+                    //     padding: 10px 20px;
+                    //     background-color: $theme-color;
+                    //     &.bottom{
+                    //         top: 100%;
+                    //         margin-top: 20px;
+                    //     }
+                    // }
+                }
+            }
+        }
+    }
+}

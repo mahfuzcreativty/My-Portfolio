@@ -1,0 +1,86 @@
+.service-area{
+    .service-wrapper{
+        .service-item{
+            box-shadow: 1px 1px 3px #7271718a,-1px -1px 3px #7271718a;
+            @extend %transition;
+            @extend %rel;
+            margin-bottom: 55px;
+            &:hover{
+                box-shadow: 1.5px 1.5px 3px #1977cfde,-1.5px -1.5px 3px #1977cfde;
+                transform: translateY(-10px);
+                .service-inner{
+                    &::after{
+                        transform: scale(1);
+                    }
+                    .service-thumb{
+                        .service-icon{
+                            background-color: $theme-color;
+                            border: none;
+                            transform: scale(1.2);
+                        }
+                        
+                    }
+                }
+            }
+            .service-inner{
+                padding: 30px 0;
+                @extend %rel;
+                &::after{
+                    @extend %abs;
+                    width: 100%;
+                    height: 5px;
+                    bottom: 0;
+                    left: 0;
+                    background-image: linear-gradient(to right, #29f7ec, #0ca4ca);
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: all .5s ease;
+                }
+                .service-thumb{
+                    padding-bottom: 30px;
+                    @extend %abs;
+                    top: -41px;
+                    left: 50%;
+                    transform: translate(-50%);
+                    z-index: 111;
+                    background: #0c0f1d;
+                    .service-icon{
+                        @extend %icon-center;
+                        width: 75px;
+                        height: 75px;
+                        @extend %m-auto;
+                        @extend %rounded;
+                        padding: 10px;
+                        border: 1px solid beige;
+                        @extend %transition;
+                        color: $white-color;
+                        i,svg{
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .service-content{
+                    @extend %text-center;
+                    padding:50px 25px 0 25px;
+                    h3{
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        text-transform: none;
+                    }
+                }
+            }
+        }
+    }
+    .col-12{
+        &:nth-child(2),&:nth-child(4),&:nth-child(6){
+            .service-item{
+                .service-inner{
+                    &::after{
+                        transform-origin: right;
+                    }
+                }
+            }
+        }
+    }
+}

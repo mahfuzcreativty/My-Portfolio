@@ -1,0 +1,121 @@
+:root {
+	--theme-color: #e917e9;
+	--theme-color-2: #fd4cfdcb;
+	--border-color: #5f1b5fbb;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--theme-color);
+}
+.section-header h2{
+	color: #442344be;
+}
+
+/*@@@@@@@@@@@ Menubar CSS @@@@@@@@@@@*/
+.Menu-area{
+	border-bottom:1px solid var(--theme-color);
+}
+.Menu-area .navbar .menubar ul .nav-item span:hover{
+	color: var(--theme-color);
+}
+.Menu-area .navbar .menubar ul .nav-item.is-current span{
+	color: var(--theme-color);
+}
+.Menu-area .navbar .menubar .hireMe{
+	background-color: var(--theme-color);
+}
+.Menu-area .navbar .menubar .hireMe:hover{
+	border: 1px solid var(--theme-color);
+}
+.Menu-area .navbar .menubar .hireMe.is-current{
+	border: 1px solid var(--theme-color);
+}
+
+/*@@@@@@@@@@@ Banner CSS @@@@@@@@@@@@@*/
+.banner-area .banner-wrap .banner-content .greating{
+	background: var(--theme-color);
+}
+.banner-area .banner-wrap .banner-content h1 span{
+	color: var(--theme-color);
+}
+.banner-area .banner-wrap .banner-content h2 span{
+	color: var(--theme-color);
+}
+.banner-area .banner-wrap .banner-content .hire-btn{
+	background-color: var(--theme-color);
+}
+.banner-area .banner-wrap .banner-content .hire-btn:hover{
+	background-color:transparent;
+	border: 1px solid var(--theme-color);
+}
+
+/* @@@@@@@@ About CSS @@@@@@@@@@@@ */
+.about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button:hover{
+	background-color: var(--theme-color);
+}
+.about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button.active{
+	background-color: var(--theme-color);
+}
+.about-part .about-wrap .about-top .inform-tab .tab-area .tab-right .tab-content .tab-pane .tab-title::after{
+	border: 1px solid var(--theme-color);
+}
+.about-part .about-wrap .my-skill{
+	border: 1px solid var(--border-color);
+}
+.about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part{
+	border: 1px solid var(--border-color);
+}
+.about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon{
+	background-color: var(--theme-color);
+}
+.about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon::after{
+	background-color: var(--theme-color);
+}
+.about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .swiper-slide-thumb-active .myteam-thumb::after{
+	background-color: #cc82cca4;
+}
+
+/* @@@@@@@@ Service CSS @@@@@@@@*/
+.service-area .service-wrapper .service-item:hover{
+	box-shadow: 1.5px 1.5px 3px var(--theme-color),-1.5px -1.5px 3px var(--theme-color);
+}
+.service-area .service-wrapper .service-item:hover .service-inner .service-thumb .service-icon{
+	background-color: var(--theme-color);
+}
+.service-area .service-wrapper .service-item .service-inner::after{
+	background-image: linear-gradient(to right, #fb86ff, #f43efa);
+}
+
+/*@@@@@@@@@ Portfolio CSS @@@@@@@@*/
+.portfolio-part .gellary-wrap .gellary-head .button-group button{
+	background-color: var(--theme-color);
+}
+.portfolio-part .gellary-wrap .gellary-head .button-group button:hover{
+	border: 1px solid var(--border-color);
+}
+.portfolio-part .gellary-wrap .gellary-head .button-group button.is-checked{
+	border: 1px solid var(--border-color);
+}
+
+/*@@@@@@@@@@ Contact CSS @@@@@@@@@@*/
+.contact-area .contact-form .contact-single{
+	border: 1px solid var(--border-color);
+}
+.contact-area .contact-form .contact-single .contact-icon{
+	background-color: var(--theme-color-2);
+}
+.contact-area .contact-form .contact-item{
+	border: 1px solid var(--border-color);
+}
+.contact-area .contact-form .contact-item form input:focus{
+	border-bottom: 1px solid var(--theme-color);
+}
+.contact-area .contact-form .contact-item form textarea:focus{
+	border-bottom: 1px solid var(--theme-color);
+}
+.contact-area .contact-form .contact-item form button{
+	background-color: var(--theme-color);
+}
+.contact-area .contact-form .contact-item form button:hover{
+	background-color: transparent;
+	border: 1px solid var(--theme-color);
+}

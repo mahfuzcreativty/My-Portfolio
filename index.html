@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahfuz Creativity</title>
+    <!-- x-image link -->
+    <link rel="shortcut icon" href="assets/images/x-image.png" type="image/x-image">
+    <!-- Font-link -->
+    <link rel="stylesheet" href="assets/css/font-family/IntegralCF-Bold.otf">
+    <link rel="stylesheet" href="assets/css/font-family/IntegralCF-Heavy.otf">
+    <link rel="stylesheet" href="assets/css/font-family/IntegralCF-Medium.otf">
+    <link rel="stylesheet" href="assets/css/font-family/IntegralCF-Regular.otf">
+    <!-- framework link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/spotlight.min.css">
+    <link rel="stylesheet" href="assets/css/switcher.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="assets/css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="assets/css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="assets/css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="assets/css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="assets/css/skins/red.css" />
+	<link rel="alternate stylesheet" type="text/css" title="yellow" href="assets/css/skins/yellow.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/switcher.css" />
+</head>
+<body class=" dark">
+    <!-- ======= preloader start here ===== -->
+	<div class="preloader">
+        <svg class="pl" width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+            <circle class="pl__ring1" cx="64" cy="64" r="60" fill="none" stroke="hsl(3,90%,55%)" stroke-width="8" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="377 377" stroke-dashoffset="-376.4"/>
+            <circle class="pl__ring2" cx="64" cy="64" r="52.5" fill="none" stroke="hsl(13,90%,55%)" stroke-width="7" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="329.9 329.9" stroke-dashoffset="-329.3"/>
+            <circle class="pl__ring3" cx="64" cy="64" r="46" fill="none" stroke="hsl(23,90%,55%)" stroke-width="6" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="289 289" stroke-dashoffset="-288.6"/>
+            <circle class="pl__ring4" cx="64" cy="64" r="40.5" fill="none" stroke="hsl(33,90%,55%)" stroke-width="5" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="254.5 254.5" stroke-dashoffset="-254"/>
+            <circle class="pl__ring5" cx="64" cy="64" r="36" fill="none" stroke="hsl(43,90%,55%)" stroke-width="4" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="226.2 226.2" stroke-dashoffset="-225.8"/>
+            <circle class="pl__ring6" cx="64" cy="64" r="32.5" fill="none" stroke="hsl(53,90%,55%)" stroke-width="3" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="204.2 204.2" stroke-dashoffset="-203.9"/>
+        </svg>
+    </div>
+	<!-- ======== preloader ending here === -->
+
+    <!--@@@@@@@@ Switcher Part Start @@@@@-->
+    <div id="switcher" class="" style="margin-left: 0px; display: none;">
+        <div class="content-switcher">
+            <h4>Change Color</h4>
+            <ul style="text-align: center;">
+                <li>
+                    <a onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="assets/images/skins/red.png" alt="red"></a>
+                </li>
+                <li>
+                    <a onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="assets/images/skins/blueviolet.png" alt="blueviolet"></a>
+                </li>
+                <li>
+                    <a onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="assets/images/skins/blue.png" alt="blue"></a>
+                </li>
+                <li>
+                    <a onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="assets/images/skins/magenta.png" alt="magenta"></a>
+                </li>
+				<li>
+                    <a onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="assets/images/skins/green.png" alt="green"></a>
+                </li>
+				<li>
+                    <a onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="assets/images/skins/yellow.png" alt="yellow"></a>
+                </li>
+            </ul>
+            <div id="hideSwitcher">×</div>
+        </div>
+    </div>
+    <div id="showSwitcher" class="styleSecondColor" style="margin-left: 0px; display: flex;"><i class="fa fa-cog fa-spin"></i></div>
+    <!--@@@@@@@@ Switcher Part End @@@@@-->
+
+	<!-- ========= scrollToTop start here ======== -->
+	<a href="#" class="scrollToTop"><i class="fa-solid fa-arrow-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
+	<!-- ======== scrollToTop ending here ====== -->
+
+    <!--======= desktop menu part start =====-->
+    <header class="Menu-area">
+        <nav class=" navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo/logo.png" alt="Logo Image"></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="collapse navbar-collapse menubar" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mt-0 mb-4 mb-lg-0">
+                    <li class="nav-item" data-serialscrolling="home-section">
+                        <span>Home</span>
+                    </li>
+                    <li class="nav-item" data-serialscrolling="about-section">
+                        <span>About</span>
+                    </li>
+                    <li class="nav-item" data-serialscrolling="service-section">
+                        <span>Service</span>
+                    </li>
+                    <li class="nav-item" data-serialscrolling="portfolio-section">
+                        <span>portfolio</span>
+                    </li>
+                </ul>
+                <a href="#0" class="nav-item hireMe" data-serialscrolling="contact-section">Hire Me</a>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!--======= desktop menu part end =====-->
+
+    <!--======= Banner part start here ====-->
+    <div class="banner-area" data-serialscrolling-target="home-section" >
+        <div class="container">
+            <div class="banner-wrap">
+                <div class="banner-content">
+                    <span class="greating">Hi Everyone</span>
+                    <h1 class="wow fadeInLeftBig" >I'm <span>Mahfuzur Rahman</span></h1>
+                    <h2 class="wow fadeInLeftBig">I Work on <span class="typing-mine"></span></h2>
+                    <p class="wow fadeInLeftBig"><i class="fa-solid fa-location-dot"></i>Jhenaidah, Bangladesh</p>
+                    <a href="#contactSection" class="hire-btn common-btn wow fadeInLeftBig"><span>Hire Me</span></a>
+                    <ul class="social-link wow fadeInUpBig">
+                        <li>
+                            <a href="https://www.facebook.com/mahfuzcreativity" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC_Nd2YMfx5T9hOaOsV2zzlg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mahfuz-creativity/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/mahfuzcreatvity" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mahfuzcreativity/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/mahfuzcreativity" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======= Banner part end here ====-->
+
+    <!--@@@@@@ About Me strat @@@@-->
+    <section class="about-part"  data-serialscrolling-target="about-section" >
+        <div class="container">
+            <div class="section-header">
+                <h2>About</h2>
+                <h3>About Myself</h3>
+            </div>
+            <div class="about-wrap">
+                <div class="about-top">
+                    <div class="inform-tab">
+                        <div class="tab-area">
+                            <div class="tab-left wow fadeInLeftBig">
+                                <div class="nav flex-column tab-btn nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-inform-tab" data-bs-toggle="pill" data-bs-target="#v-pills-inform" type="button" role="tab" aria-controls="v-pills-inform" aria-selected="true">Basic Information</button>
+                                    <button class="nav-link" id="v-pills-edu-tab" data-bs-toggle="pill" data-bs-target="#v-pills-edu" type="button" role="tab" aria-controls="v-pills-edu" aria-selected="false">Education</button>
+                                </div>
+                            </div>
+                            <div class="tab-right wow fadeInUpBig">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-inform" role="tabpanel" aria-labelledby="v-pills-inform-tab">
+                                        <h3 class="tab-title"><i class="fa-solid fa-user"></i> Personal Information</h3>
+                                        <div class="tab-details">
+                                            <p>I'm a Freelance Web Designer based in Jhenaidah, Bangladesh. I have serious passion for UI effects, animations and creating intuitive. I have 2 year experience in web design. I had been working with a company for 1 years. Odit nostrum, cum totam eligendi sequi eveniet excepturi natus tempora ut. Quasi ut at eaque ratione aut. Voluptatum, a atque. Quod, totam itaque. Beatae maiores dolore voluptatum!Quasi ut at eaque ratione aut. Voluptatum, a atque. Quod, totam itaque. Beatae maiores dolore voluptatum!</p>
+                                            <ul class="info-list">
+                                                <li>
+                                                    <span>First Name : </span>
+                                                    <span>Mahfuzur Rahman</span>
+                                                </li>
+                                                <li>
+                                                    <span>Last Name : </span>
+                                                    <span>Fahim</span>
+                                                </li>
+                                                <li>
+                                                    <span>Age : </span>
+                                                    <span>19</span>
+                                                </li>
+                                                <li>
+                                                    <span>Birthdate : </span>
+                                                    <span>26 Octbor 2001</span>
+                                                </li>
+                                                <li>
+                                                    <span>Address :</span>
+                                                    <span>Jhenaidah,Bangladesh</span>
+                                                </li>
+                                                <li>
+                                                    <span>Residence : </span>
+                                                    <span>BD</span>
+                                                </li>
+                                                <li>
+                                                    <span>Langages : </span>
+                                                    <span>Bengli</span>
+                                                </li>
+                                                <li>
+                                                    <span>Religion : </span>
+                                                    <span>Islam</span>
+                                                </li>
+                                                <li>
+                                                    <span>Phone : </span>
+                                                    <span>+8801707-913865</span>
+                                                </li>
+                                                <li>
+                                                    <span>Experience : </span>
+                                                    <span>2 years</span>
+                                                </li>
+                                                <li>
+                                                    <span>Email : </span>
+                                                    <span style="text-transform: lowercase;">mahfuzcreativity@gmail.com</span>
+                                                </li>
+                                                <li>
+                                                    <span>Freelance : </span>
+                                                    <span>Available</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-edu" role="tabpanel" aria-labelledby="v-pills-edu-tab">
+                                        <h3 class="tab-title"><i class="fa fa-graduation-cap"></i>Education</h3>
+                                        <div class="tab-details">
+                                            <div class="tab-item">
+                                                <div class="edu-list">
+                                                    <h3>Diploma In Civil Engineearing</h3>
+                                                    <h5>Jhenaidah Polytechnic Institute</h5>
+                                                    <span>2019-continoues</span>
+                                                    <p>Ipsum alias facilis numquam voluptatem ut, illo maiores eum velit laudantium pariatur provident quia reiciendis iure, aut reprehenderit facere ullam ab quam fugit temporibus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-details">
+                                            <div class="tab-item">
+                                                <div class="edu-list">
+                                                    <h3>Secondary School Certificate(SSC)</h3>
+                                                    <h5>Jhenaidah Govt. High School</h5>
+                                                    <span>2017-2019</span>
+                                                    <p>Ipsum alias facilis numquam voluptatem ut, illo maiores eum velit laudantium pariatur provident quia reiciendis iure, aut reprehenderit facere ullam ab quam fugit temporibus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-details">
+                                            <div class="tab-item">
+                                                <div class="edu-list">
+                                                    <h3>Junior School Certificate(JSC)</h3>
+                                                    <h5>Jhenaidah Govt. High School</h5>
+                                                    <span>2014-2016</span>
+                                                    <p>Ipsum alias facilis numquam voluptatem ut, illo maiores eum velit laudantium pariatur provident quia reiciendis iure, aut reprehenderit facere ullam ab quam fugit temporibus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-skill">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <div class="resume">
+                                <div class="resume-title">
+                                    <h4>my design skills.....</h4>
+                                </div>
+                                <div class="resume-progress-bar">
+                                    <div class="prog progress-bar-01 wow fadeInUp">
+                                        <div id="example" class="color pie-title-center" data-percent="60">
+                                            <span class="pie-value">60%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-solid fa-images"></i>
+                                            <span>Photoshop</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-02 wow fadeInUp" data-duration=".5">
+                                        <div id="example4" class="color pie-title-center" data-percent="90">
+                                            <span class="pie-value">90%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-figma"></i>
+                                            <span>Figma App</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <div class="resume mt-5 mt-md-0">
+                                <div class="resume-title">
+                                    <h4>my codding skills.....</h4>
+                                </div>
+                                <div class="resume-progress-bar border-left">
+                                    <div class="prog progress-bar-03 wow fadeInUp" data-duration="0.8">
+                                        <div id="example5" class="color pie-title-center" data-percent="90">
+                                            <span class="pie-value">90%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-html5"></i>
+                                            <span>html</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-04 wow fadeInUp" data-duration="1.1">
+                                        <div id="example7" class="color pie-title-center" data-percent="76">
+                                            <span class="pie-value">76%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-css3-alt"></i>
+                                            <span>css</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-05 wow fadeInUp" data-duration="1.4">
+                                        <div id="example6" class="color pie-title-center" data-percent="40">
+                                            <span class="pie-value">40%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-js"></i>
+                                            <span>JavaScript</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-06 wow fadeInUp" data-duration="1.7">
+                                        <div id="example8" class="color pie-title-center" data-percent="84">
+                                            <span class="pie-value">84%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-sass"></i>
+                                            <span>Sass</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-07 wow fadeInUp" data-duration="2.0">
+                                        <div id="example9" class="color pie-title-center" data-percent="90">
+                                            <span class="pie-value">90%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-bootstrap"></i>
+                                            <span>Bootstrap</span>
+                                        </p>
+                                    </div>
+                                    <div class="prog progress-bar-08 wow fadeInUp" data-duration="2.1">
+                                        <div id="example10" class="color pie-title-center" data-percent="64">
+                                            <span class="pie-value">64%</span>
+                                        </div>
+                                        <p>
+                                            <i class="fa-brands fa-pied-piper"></i>
+                                            <span>jquery</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="myteam-area">
+                    <div class="myteam-wrap">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-12">
+                                <div class="myteam-slide-part wow flipInY" data-duration="1.5">
+                                    <h3>My Team.....</h3>
+                                    <div class="swiper-container myteam-details-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-content">
+                                                        <div class="quate-icon">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                        <p>Holisticly productize then the fully with tested relationships rather next generation. Compell productivate
+                                                            extensive and flexible imperative. Seamless for
+                                                            transform box through of
+                                                            client focused process.Compell productivate
+                                                            extensive and.The-box channels through of
+                                                            client focused process flexible twoards raterin.</p>
+                                                        <span>Rajib Ahmed</span>
+                                                        <span>Front-end-devoloper</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-content">
+                                                        <div class="quate-icon">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                        <p>Holisticly productize then the fully with tested relationships rather next generation. Compell productivate
+                                                            extensive and flexible imperative. Seamless for
+                                                            transform box through of
+                                                            client focused process.Compell productivate
+                                                            extensive and.The-box channels through of
+                                                            client focused process flexible twoards raterin.</p>
+                                                        <span>Jubaer Ahmed</span>
+                                                        <span>Graphic Desiner</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-content">
+                                                        <div class="quate-icon">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                        <p>Holisticly productize then the fully with tested relationships rather next generation. Compell productivate
+                                                            extensive and flexible imperative. Seamless for
+                                                            transform box through of
+                                                            client focused process.Compell productivate
+                                                            extensive and.The-box channels through of
+                                                            client focused process flexible twoards raterin.</p>
+                                                        <span>Tuhin Shiblu</span>
+                                                        <span>Freelancer</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-container myteam-profile-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-thumb">
+                                                        <img src="assets/images/team/01.jpg" alt="Team Member Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-thumb">
+                                                        <img src="assets/images/team/02.jpg" alt="Team Member Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="myteam-item">
+                                                    <div class="myteam-thumb">
+                                                        <img src="assets/images/team/03.jpg" alt="Team Member Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="choose-area wow flipInY" data-duration="2">
+                                    <div class="choose-header">
+                                        <h3>FAQ.....</h3>
+                                    </div>
+                                    <div class="choose-warp">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade show active" id="v-pills-support" role="tabpanel" >
+                                                <div class="accordion" id="accordionExample">
+                                                    <div class="accordion-item">
+                                                        <h6 class="accordion-header" id="headingOne">
+                                                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                Awesome Features
+                                                                <span class="plus-minus-box"></span>
+                                                            </button>
+                                                        </h6>
+                                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>You can build your website with awesome new featurs.It decorate your website more beautiful and mostly attractive to other people.So It's a good opportunity to makes website by me.Thank You</p>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h6 class="accordion-header" id="headingTwo">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Unique Design
+                                                            <span class="plus-minus-box"></span>
+                                                        </button>
+                                                        </h6>
+                                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>On the other hand you also get brand new unique design. It also makes your website beautiful and attractive to other people.Uniqe design is loved by all in all time.So It's a good opportunity to makes website by me.Thank You</p>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h6 class="accordion-header" id="headingThree">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            User Friendly
+                                                            <span class="plus-minus-box"></span>
+                                                        </button>
+                                                        </h6>
+                                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                            <p>When I design a website it must be user friendly so anyone can visit by their own device.A responsive website is loved by all beacuse anyone visit this very comfortably.So It's a good opportunity to makes website by me.Thank You</p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-achivment wow rollIn">
+                    <div class="ach-wrapper">
+                        <div class="row gx-4 gy-5 justify-content-center">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="ach-item">
+                                    <div class="ach-inner">
+                                        <div class="ach-thumb">
+                                            <i class="fa-solid fa-handshake-simple"></i>
+                                        </div>
+                                        <div class="ach-content wow fadeInUp" data-duration="0.8s">
+                                            <div>
+                                                <span class="about__project--count counter" data-to="42" data-speed="1500"></span>
+                                                <span>+</span>
+                                            </div>
+                                            <h4>Happy Clients</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="ach-item">
+                                    <div class="ach-inner">
+                                        <div class="ach-thumb">
+                                            <i class="fa-solid fa-briefcase"></i>
+                                        </div>
+                                        <div class="ach-content wow fadeInUp" data-duration="0.9s">
+                                            <div>
+                                                <span class="about__project--count counter" data-to="26" data-speed="1500"></span>
+                                                <span>+</span>
+                                            </div>
+                                            <h4>Complete Project</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="ach-item">
+                                    <div class="ach-inner">
+                                        <div class="ach-thumb">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="ach-content wow fadeInUp" data-duration="1s">
+                                            <div>
+                                                <span class="about__project--count counter" data-to="450" data-speed="1500"></span>
+                                                <span>+</span>
+                                            </div>
+                                            <h4>Loves</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="ach-item">
+                                    <div class="ach-inner">
+                                        <div class="ach-thumb">
+                                            <i class="fa-solid fa-medal"></i>
+                                        </div>
+                                        <div class="ach-content wow fadeInUp" data-duration="1.1s">
+                                            <div>
+                                                <span class="about__project--count counter" data-to="2"
+                                                data-speed="1500"></span>
+                                            </div>
+                                            <h4>Experience Year</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--@@@@@@ About Me End @@@@@@-->
+
+    <!-- Service Section Start -->
+    <section class="service-area" data-serialscrolling-target="service-section" >
+        <div class="container">
+            <div class="section-header">
+                <h2>SERVICES</h2>
+                <h3>What services do I provide?</h3>
+            </div>
+            <div class="service-wrapper">
+                <div class="row justify-content-center g-4">
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInLeftBig">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-solid fa-laptop-code"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Web Design</h3>
+                                    <p>Hi everyone! I'm Mahfuzur Rahman a successfull web designer.I have worked in web design for 2 years and completed many project properly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInDownBig" data-duration=".6">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-brands fa-html5"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Landing Page Design</h3>
+                                    <p>Hi! I'm Mahfuzur Rahman a successfull landing page designer and devoloper.Recently I completed some landing page design project properly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInRightBig" data-duration=".9">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-brands fa-bootstrap"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Bootstrap Base Design</h3>
+                                    <p>Hi everyone! I'm Mahfuzur Rahman a successfull bootstrap user.I can easily use bootstrap all components and can make a website by bootstrap.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInLeftBig" data-duration="1.3">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Responsive Design</h3>
+                                    <p>Hi everyone! I'm Mahfuzur Rahman a successfull Responsive Designer.When I designed a project,it is must be fully responsive and mobile friendly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInDownBig" data-duration="1.7">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Email Template Design</h3>
+                                    <p>Hi everyone! I'm Mahfuzur Rahman a successfull Email Template Designer.I can easily make this.In my working history I desgined some Emal Template</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="service-item wow fadeInRightBig" data-duration="2.1">
+                            <div class="service-inner">
+                                <div class="service-thumb">
+                                    <div class="service-icon">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <h3>PSD to HTML</h3>
+                                    <p>Hi everyone! I'm Mahfuzur Rahman a successfull Web Designer.I am expart in PSD or Figma to HTML design and completed a much of project by it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!--==== Portfolio Part strat ====-->
+    <section class="portfolio-part"  data-serialscrolling-target="portfolio-section" >
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <h3>My Working Demos</h3>
+            </div>
+            <div class="gellary-wrap">
+                <div class="gellary-head">
+					<div  class="button-group" id="filters">
+						<button class="button is-checked" data-filter="*"><i class="fa-solid fa-star"></i> All</button>
+						<button class="button" data-filter=".practice"><i class="fa-solid fa-code"></i> Practice</button>
+						<button class="button" data-filter=".project"><i class="fa-solid fa-briefcase"></i> Project</button>
+						<button class="button mt-3 mt-sm-0" data-filter=".client"><i class="fa-solid fa-handshake-angle"></i> Client</button>
+					</div>
+				</div>
+                <div class=" gellary-box">
+					<div class="gellary-item project wow rotateInUpLeft">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/011.png" data-description="It's a homepage of a project.This was made September 2021">
+                                    <img src="assets/images/gellary/01.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content">
+                                <a href="./assets/images/gellary/011.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+					<div class="gellary-item  practice wow rotateInUpLeft">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/033.png" data-description="It's a simple practice of facebook login page and was made March 2021">
+                                    <img src="assets/images/gellary/03.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content">
+                                <a href="./assets/images/gellary/033.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+					<div class="gellary-item  client wow rotateInUpLeft">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/066.png" data-description="Project name:Chashi . A homepage of a project was made on July 2021">
+                                    <img src="assets/images/gellary/06.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content">
+                                <a href="./assets/images/gellary/066.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+					<div class="gellary-item  project wow rotateInUpLeft" data-duration="1.8">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/022.png" data-description="It'a also a homepage of a project.project name:brigrate and was made january 2021">
+                                    <img src="assets/images/gellary/02.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content bottom">
+                                <a href="./assets/images/gellary/022.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+					<div class="gellary-item  client wow rotateInUpLeft" data-duration="1.8">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/055.png" data-description="Project name:meet . A homepage of a project was made on january 2022">
+                                    <img src="assets/images/gellary/05.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content bottom">
+                                <a href="./assets/images/gellary/055.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+					<div class="gellary-item  practice wow rotateInUpLeft" data-duration="1.8">
+						<div class="gellary-inner">
+							<div class="gellary-thumb">
+                                <div class="spotlight" data-media="image" data-src="assets/images/gellary/044.png" data-description="A simple practice of google create gmail page">
+                                    <img src="assets/images/gellary/04.png" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- <div class="gellary-content bottom">
+                                <a href="./assets/images/gellary/044.png" download>Downlaod Image</a>
+                            </div> -->
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!--==== Portfolio Part End ======-->
+
+    <!--@@@@@@@ Contact Me Part start @@@@-->
+    <section class="contact-area"  data-serialscrolling-target="contact-section" id="ContactSection">
+        <div class="container">
+            <div class="section-header">
+                <h2>CONTACT</h2>
+                <h3>How to contact with me?</h3>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-form">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-12">
+                            <div class="contact-single wow fadeInDownBig" >
+                                <div class="contact-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h6>My Address:</h6>
+                                    <p>Jhenaidah Sadar, Jhenaidah</p>
+                                </div>
+                            </div>
+                            <div class="contact-single wow fadeInLeftBig" data-duration="1.5">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-volume"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <a href="tel:+8801707913865">
+                                        <h6>Make A Call:</h6>
+                                        <p class="text">01707-913865</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-single wow fadeInUpBig" data-duration="2.0">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope-open-text"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <a href="mailto:mahfuzcreativity@gmail.com">
+                                        <h6>Send mail:</h6>
+                                        <p class="text" style="text-transform: lowercase;">mahfuzcreativity@gmail.com</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-12" style="display: flex;flex-wrap: wrap;">
+                            <div class="contact-item mt-5 mt-lg-0 wow wobble" data-duration="1">
+                                <form action="contact.php" id="contact-form" method="POST">
+                                    <input type="text" placeholder="Your Name*" id="name" required>
+                                    <input type="email" placeholder="Your Email*" id="email" required>
+                                    <input type="text" placeholder="Subject" id="subject" required>
+                                    <textarea name="message" id="message"  placeholder="Your Message*" rows="5" required></textarea>
+                                    <button type="submit" class="common-btn"><span>send message</span></button>
+                                </form>
+                                <p class="form-message"></p>
+                            </div>
+
+                            <div class="contact-item wow fadeInUp w-100">
+                                <div class="location-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7315.252404580117!2d89.171167711195!3d23.5459431567358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fee5dfb6ab292b%3A0x714cc79d538236a4!2sPaira%20Chottor!5e0!3m2!1sen!2sbd!4v1647279146572!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--@@@@@@@ Contact Me Part end @@@@-->
+    
+    <!-- framework js here -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/all.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/switcher.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/spotlight.min.js"></script>
+    <script src="assets/js/pie-chart.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.serialscrolling.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <!-- main js link -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
