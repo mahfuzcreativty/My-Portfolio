@@ -49,7 +49,7 @@ a, li {
   display: inline-block;
 }
 
-.portfolio-part .gellary-wrap .gellary-box .gellary-item .gellary-inner, .about-part .about-wrap .myteam-area .myteam-wrap .choose-area .choose-warp .tab-content .tab-pane .accordion-item button .plus-minus-box, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .swiper-slide-thumb-active .myteam-thumb, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon, .about-part .about-wrap .my-skill .resume .resume-progress-bar .prog .pie-title-center, .about-part .about-wrap .my-skill .resume .resume-progress-bar.border-left, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right .tab-content .tab-pane .tab-title, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button, .service-area .service-wrapper .service-item .service-inner, .service-area .service-wrapper .service-item, .banner-area .banner-wrap, .banner-area, .Menu-area .navbar .navbar-toggler, .common-btn span, body {
+.portfolio-part .gellary-wrap .gellary-box .gellary-item .gellary-inner, .about-part .about-wrap .myteam-area .myteam-wrap .choose-area .choose-warp .tab-content .tab-pane .accordion-item button .plus-minus-box, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .swiper-slide-thumb-active .myteam-thumb, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon, .about-part .about-wrap .my-skill .resume .resume-progress-bar .prog .pie-title-center, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right .tab-content .tab-pane .tab-title, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button, .service-area .service-wrapper .service-item .service-inner, .service-area .service-wrapper .service-item, .banner-area .banner-wrap, .banner-area, .Menu-area .navbar .navbar-toggler, .common-btn span, body {
   position: relative;
 }
 
@@ -88,11 +88,11 @@ a, li {
   background-size: cover;
 }
 
-.portfolio-part .gellary-wrap .gellary-head, .contact-area .contact-form .contact-single, .about-part .about-wrap .my-achivment .ach-wrapper .ach-item .ach-inner, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content, .about-part .about-wrap .my-skill .resume .resume-progress-bar .prog, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right .tab-content .tab-pane, .service-area .service-wrapper .service-item .service-inner .service-content, .scrollToTop, .section-header {
+.portfolio-part .gellary-wrap .gellary-head, .contact-area .contact-form .contact-single, .about-part .about-wrap .my-achivment .ach-wrapper .ach-item .ach-inner, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content, .about-part .about-wrap .my-skill .resume .resume-progress-bar .prog, .about-part .about-wrap .my-skill .resume .resume-title, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right .tab-content .tab-pane, .service-area .service-wrapper .service-item .service-inner .service-content, .Menu-area .navbar .menubar.show, .scrollToTop, .section-header {
   text-align: center;
 }
 
-.contact-area .contact-form .contact-item form, .about-part .about-wrap .myteam-area .myteam-wrap .choose-area .choose-warp .tab-content .tab-pane .accordion-item button, .about-part .about-wrap .my-skill .resume .resume-progress-bar, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn, .about-part .about-wrap .about-top .inform-tab .tab-area {
+.contact-area .contact-form .contact-item form, .about-part .about-wrap .myteam-area .myteam-wrap .choose-area .choose-warp .tab-content .tab-pane .accordion-item button, .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn, .about-part .about-wrap .about-top .inform-tab .tab-area {
   justify-content: space-between;
 }
 
@@ -110,7 +110,6 @@ body {
   font-family: "Integral-CF", sans-serif;
   z-index: 1111;
   text-transform: capitalize;
-  overflow-x: hidden;
 }
 body.dark {
   background-color: #0c0f1d;
@@ -171,7 +170,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  color: #006BDB;
+  color: #0d7bed;
 }
 
 ul,
@@ -273,7 +272,7 @@ button, input {
   border-radius: 2px;
   font-weight: 600;
   text-transform: uppercase;
-  background: #006BDB;
+  background: #0d7bed;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -522,7 +521,7 @@ button, input {
   z-index: 1;
   top: 0;
   left: 0;
-  background: #006BDB;
+  background: #0d7bed;
 }
 .scrollToTop:hover {
   background: linear-gradient(to right, #5886ea, #819fe1);
@@ -604,7 +603,7 @@ button, input {
 }
 
 .Menu-area {
-  border-bottom: 1px solid #006BDB;
+  border-bottom: 1px solid #0d7bed;
 }
 .Menu-area .navbar {
   padding: 16px 0;
@@ -682,15 +681,15 @@ button, input {
   margin: 0 4px;
 }
 .Menu-area .navbar .menubar ul .nav-item span:hover {
-  color: #006BDB;
+  color: #0d7bed;
 }
 .Menu-area .navbar .menubar ul .nav-item.is-current span {
-  color: #006BDB;
+  color: #0d7bed;
 }
 .Menu-area .navbar .menubar .hireMe {
   padding: 10px 15px;
   border-radius: 6px;
-  background-color: #006BDB;
+  background-color: #0d7bed;
   text-transform: uppercase;
   font-weight: 600;
   scroll-behavior: smooth;
@@ -706,6 +705,11 @@ button, input {
   background-position: unset;
   padding: 100px 0;
 }
+@media (min-width: 768px) {
+  .banner-area {
+    padding: 160px 0;
+  }
+}
 @media (min-width: 992px) {
   .banner-area {
     background-position: center center;
@@ -714,13 +718,14 @@ button, input {
 @media (min-width: 1200px) {
   .banner-area {
     height: 800px;
+    padding: 0;
   }
 }
 .banner-area .banner-wrap .banner-content {
   width: 100%;
 }
 .banner-area .banner-wrap .banner-content .greating {
-  background: #006BDB;
+  background: #0d7bed;
   padding: 8px 13px;
   font-size: 18px;
   color: #fff;
@@ -732,7 +737,7 @@ button, input {
   margin-top: 32px;
 }
 .banner-area .banner-wrap .banner-content h1 span {
-  color: #006BDB;
+  color: #0d7bed;
   font-weight: bold;
 }
 .banner-area .banner-wrap .banner-content h2 {
@@ -741,7 +746,7 @@ button, input {
   margin-top: 12px;
 }
 .banner-area .banner-wrap .banner-content h2 span {
-  color: #006BDB;
+  color: #0d7bed;
   font-style: italic;
 }
 .banner-area .banner-wrap .banner-content p i, .banner-area .banner-wrap .banner-content p svg {
@@ -799,7 +804,7 @@ button, input {
   transform: scale(1);
 }
 .service-area .service-wrapper .service-item:hover .service-inner .service-thumb .service-icon {
-  background-color: #006BDB;
+  background-color: #0d7bed;
   border: none;
   transform: scale(1.2);
 }
@@ -861,7 +866,7 @@ button, input {
 .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left {
   width: 100%;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left {
     width: 22%;
   }
@@ -887,11 +892,11 @@ button, input {
   margin-bottom: 0;
 }
 .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button:hover {
-  background: #006BDB;
+  background: #0d7bed;
   color: #fff;
 }
 .about-part .about-wrap .about-top .inform-tab .tab-area .tab-left .tab-btn button.active {
-  background: #006BDB;
+  background: #0d7bed;
   color: #fff;
 }
 .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right {
@@ -901,7 +906,7 @@ button, input {
   border-radius: 10px;
   margin-top: 40px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .about-part .about-wrap .about-top .inform-tab .tab-area .tab-right {
     width: 74%;
     height: 520px;
@@ -982,8 +987,8 @@ button, input {
   }
 }
 .about-part .about-wrap .my-skill .resume .resume-progress-bar {
+  justify-content: space-evenly;
   gap: 40px;
-  padding: 0 40px;
   margin-top: 35px;
 }
 @media (min-width: 768px) {
@@ -991,15 +996,16 @@ button, input {
     padding: 0px 50px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .about-part .about-wrap .my-skill .resume .resume-progress-bar.border-left {
     border-left: 4px solid rgba(90, 112, 134, 0.8784313725);
+    position: relative;
   }
   .about-part .about-wrap .my-skill .resume .resume-progress-bar.border-left::after, .about-part .about-wrap .my-skill .resume .resume-progress-bar.border-left::before {
     position: absolute;
     width: 14px;
     height: 14px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: rgba(188, 219, 236, 0.8549019608);
     left: -9px;
   }
@@ -1047,7 +1053,7 @@ button, input {
 .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon {
   width: 75px;
   height: 50px;
-  background-color: #006BDB;
+  background-color: #0d7bed;
   border-radius: 4px;
   z-index: 111;
 }
@@ -1057,7 +1063,7 @@ button, input {
   width: 27px;
   height: 14px;
   transform: rotate(25deg);
-  background-color: #006BDB;
+  background-color: #0d7bed;
   z-index: -1;
 }
 .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon i, .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-item .myteam-content .quate-icon svg {
@@ -1081,8 +1087,14 @@ button, input {
   margin-top: 40px;
 }
 .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .myteam-thumb {
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
+}
+@media (min-width: 768px) {
+  .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .myteam-thumb {
+    width: 70px;
+    height: 70px;
+  }
 }
 .about-part .about-wrap .myteam-area .myteam-wrap .myteam-slide-part .myteam-profile-slider .myteam-thumb img {
   width: 100%;
@@ -1243,9 +1255,6 @@ button, input {
 .contact-area .contact-form .contact-single .contact-details p {
   font-size: 20px;
 }
-.contact-area .contact-form .contact-single .contact-details p a {
-  color: rgba(190, 190, 190, 0.8901960784);
-}
 .contact-area .contact-form .contact-item {
   padding: 25px 20px;
   border: 1px solid #1b2d49;
@@ -1262,7 +1271,7 @@ button, input {
   color: #fff;
 }
 .contact-area .contact-form .contact-item form input:focus, .contact-area .contact-form .contact-item form textarea:focus {
-  border-bottom: 1px solid #006BDB;
+  border-bottom: 1px solid #0d7bed;
 }
 .contact-area .contact-form .contact-item form input::placeholder, .contact-area .contact-form .contact-item form textarea::placeholder {
   color: rgba(255, 255, 255, 0.5215686275);
@@ -1313,7 +1322,7 @@ button, input {
 .portfolio-part .gellary-wrap .gellary-head .button-group button {
   background-color: transparent;
   color: #fff;
-  background-color: #006BDB;
+  background-color: #0d7bed;
   padding: 6px 10px;
   border-radius: 4px;
   margin-right: 6px;
